@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -77,25 +77,6 @@ Get Quote
 
 <h2>Get Free Moving Quote</h2>
 
-<!-- <form class="quote-form">
-
-<input type="text" placeholder="Full Name" required>
-<input type="tel" placeholder="Mobile Number" required>
-<input type="text" placeholder="Moving From">
-<input type="text" placeholder="Moving To">
-
-<select>
-<option>Select Move Size</option>
-<option>1 BHK</option>
-<option>2 BHK</option>
-<option>3 BHK</option>
-</select>
-
-<textarea placeholder="Additional Details"></textarea>
-
-<button class="btn-primary">Submit</button>
-
-</form> -->
 
 <form class="quote-form" id="quoteForm">
 
@@ -287,5 +268,318 @@ loading="lazy">
 
 <script src="script.js"></script>
 
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thane Packers and Movers</title>
+  <link rel="icon" type="image/png" href="mover.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header-flex">
+      <div class="logo">
+        <div class="logo-icon">🚚</div>
+        <div class="logo-text">
+          <h2>Thane Packers</h2>
+          <span>& Movers</span>
+        </div>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:9768709374" class="nav-call">📞 Call Now</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">⭐ Trusted Since 2014</div>
+      <h1>Professional Packers<br><span class="accent">& Movers</span> in Thane</h1>
+      <p>Safe, affordable and stress-free relocation for homes, offices and vehicles — right from your doorstep.</p>
+      <div class="hero-buttons">
+        <a href="tel:9768709374" class="btn-primary">📞 Call Now</a>
+        <a href="#quote" class="btn-secondary">Get Free Quote →</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>5000+</strong><span>Customers</span></div>
+        <div><strong>10+</strong><span>Years</span></div>
+        <div><strong>50+</strong><span>Team</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section id="quote" class="quote-section">
+    <div class="container">
+      <div class="section-label">Free Estimate</div>
+      <h2>Get Your Moving Quote</h2>
+      <p class="section-sub">Fill in the details and we'll get back to you within minutes.</p>
+      <form class="quote-form" id="quoteForm">
+        <div class="form-row">
+          <input type="text" id="name" placeholder="Full Name" required>
+          <input type="tel" id="phone" placeholder="Mobile Number" required>
+        </div>
+        <div class="form-row">
+          <input type="text" id="fromLocation" placeholder="Moving From">
+          <input type="text" id="toLocation" placeholder="Moving To">
+        </div>
+        <select id="moveSize">
+          <option value="">Select Move Size</option>
+          <option>1 BHK</option>
+          <option>2 BHK</option>
+          <option>3 BHK</option>
+          <option>4 BHK / Villa</option>
+          <option>Office</option>
+        </select>
+        <textarea id="details" placeholder="Additional Details (optional)" rows="3"></textarea>
+        <button type="submit" class="btn-primary btn-full">Submit Request →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-label">What We Do</div>
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🏠</div>
+          <h3>House Shifting</h3>
+          <p>Complete household relocation with expert packing, loading and safe delivery.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🏢</div>
+          <h3>Office Relocation</h3>
+          <p>Fast, organized and secure office shifting with minimal downtime.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚗</div>
+          <h3>Car Transportation</h3>
+          <p>Fully enclosed vehicle carriers for safe and damage-free car transport.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📦</div>
+          <h3>Warehouse Storage</h3>
+          <p>Secure short and long-term storage solutions at affordable rates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="process">
+    <div class="container">
+      <div class="section-label">How It Works</div>
+      <h2>Our Moving Process</h2>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <div class="step-icon">📋</div>
+          <h4>Booking</h4>
+          <p>Call us or fill the form to book your move.</p>
+        </div>
+        <div class="process-arrow">→</div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <div class="step-icon">📦</div>
+          <h4>Packing</h4>
+          <p>Expert packing with quality materials.</p>
+        </div>
+        <div class="process-arrow">→</div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <div class="step-icon">🔄</div>
+          <h4>Loading</h4>
+          <p>Careful loading with padded protection.</p>
+        </div>
+        <div class="process-arrow">→</div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <div class="step-icon">🚛</div>
+          <h4>Transport</h4>
+          <p>GPS tracked, on-time transportation.</p>
+        </div>
+        <div class="process-arrow">→</div>
+        <div class="process-step">
+          <div class="step-num">05</div>
+          <div class="step-icon">✅</div>
+          <h4>Delivery</h4>
+          <p>Safe delivery and unpacking at your new home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <h2 class="counter" data-target="5000">0</h2>
+        <p>Happy Customers</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <h2 class="counter" data-target="10">0</h2>
+        <p>Years Experience</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <h2 class="counter" data-target="50">0</h2>
+        <p>Team Members</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="reviews">
+    <div class="container">
+      <div class="section-label">Testimonials</div>
+      <h2>Customer Reviews</h2>
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Excellent packing service and very safe delivery. All items arrived in perfect condition. Highly recommend!"</p>
+          <div class="reviewer"><div class="avatar">J</div><strong>Jayesh M.</strong></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Very professional team and extremely helpful staff. Made my office relocation completely stress-free."</p>
+          <div class="reviewer"><div class="avatar">D</div><strong>Dipanker S.</strong></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Best packers and movers in Thane! Timely, affordable and very careful with all belongings."</p>
+          <div class="reviewer"><div class="avatar">S</div><strong>Sanjay R.</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <div class="section-label">Get In Touch</div>
+        <h2>Contact Us</h2>
+        <div class="contact-item">
+          <span>📞</span>
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:9768709374">9768709374</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span>📍</span>
+          <div>
+            <strong>Address</strong>
+            <p>Shop NO. 177, Opp Deva Kirana Store,<br>
+            Near Saibaba Temple, Shivaji Nagar,<br>
+            Ghodbunder Rd, Manpada,<br>
+            Thane, Maharashtra 400607</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span>🕐</span>
+          <div>
+            <strong>Working Hours</strong>
+            <p>Mon – Sat: 8:00 AM – 8:00 PM<br>Sunday: On Call</p>
+          </div>
+        </div>
+      </div>
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps?q=Ghodbunder+Road+Manpada+Thane+Maharashtra+400607&output=embed"
+          width="100%"
+          height="100%"
+          style="border:0; border-radius: 16px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span>🚚</span> Thane Packers & Movers
+      </div>
+      <p>© 2026 Thane Packers and Movers. All rights reserved.</p>
+      <p style="font-size:13px; margin-top:6px; opacity:0.6;">Manpada, Ghodbunder Road, Thane – 400607</p>
+    </div>
+  </footer>
+
+  <!-- FLOATING BUTTONS -->
+  <a href="https://wa.me/919768709374" class="float-btn whatsapp" title="WhatsApp Us">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+  <a href="tel:9768709374" class="float-btn call" title="Call Us">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+    <span>Call</span>
+  </a>
+
+  <script src="script.js"></script>
+  <script>
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav');
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+    // Close nav on link click
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('open');
+        hamburger.classList.remove('active');
+      });
+    });
+    // Sticky header shadow
+    window.addEventListener('scroll', () => {
+      document.getElementById('header').classList.toggle('scrolled', window.scrollY > 30);
+    });
+    // Counter animation
+    const counters = document.querySelectorAll('.counter');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          const target = +e.target.dataset.target;
+          let count = 0;
+          const step = target / 80;
+          const tick = setInterval(() => {
+            count = Math.min(count + step, target);
+            e.target.textContent = Math.floor(count) + (target >= 100 ? '+' : '+');
+            if (count >= target) clearInterval(tick);
+          }, 20);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    counters.forEach(c => io.observe(c));
+  </script>
 </body>
 </html>
